@@ -1,4 +1,4 @@
- import {expect} from 'chai';
+import {expect} from 'chai';
 
 // const {expect} = require('chai');
 //const expect = require('chai').expect
@@ -21,7 +21,9 @@ describe('Main Page', () =>{
     });
     it('should verify login button is clickable', function () {
         expect($('[qa="login-link"]').isClickable()).eq(true)
-        
+
     });
 
 })
+
+ 
