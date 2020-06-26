@@ -47,6 +47,7 @@ describe( 'CREATE DELIVERY',()=> {
         secQuest.selectByVisibleText('What is your favorite movie?');
 
     });
+
     // it('should verify first question is selected', function () {
     //     const secQuest = $('#s3o5');
     //     secQuest.scrollIntoView();
