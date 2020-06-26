@@ -68,10 +68,22 @@ describe('RIGISTRATION PAGE',()=> {
         const res = inputLastName.getAttribute('class')
         expect(res).contains('is-valid')
     });
+    it('should fill out phone', function () {
+        const inputLastName = $('[name="phone"]');
+        inputLastName.setValue('19165957289');
+
+    });
+    it('should input phone is valid', function () {
+        const inputLastName = $('[name="phone"]');
+        browser.keys('Tab')
+        const res = inputLastName.getAttribute('class')
+        expect(res).contains('is-valid')
+    });
 
     it('should submit btn is clicbl', function () {
         expect($('[type="submit"]').isClickable()).eq(true)
     });
+
 
 });
 

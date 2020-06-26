@@ -25,5 +25,3 @@ describe('Main Page', () =>{
     });
 
 })
-
- 
